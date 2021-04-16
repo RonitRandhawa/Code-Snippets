@@ -22,4 +22,4 @@ const symbols = {
     return number;
 }
 
-console.log(BasicRomanNumerals("TYPE HERE"));
+console.log(BasicRomanNumerals("ENTER HERE"));
