@@ -1,5 +1,5 @@
 function BasicRomanNumerals(str) {
-const symbols = { 
+    const symbols = { 
         'I': 1,
         'V': 5,
         'X': 10,
@@ -12,7 +12,7 @@ const symbols = {
     for (i=0; i < str.length; i++){
         const current = symbols[str[i]];
         const next = symbols[str[i+1]];
-        if (current < next){
+        if (current < next) {
             number += next - current;
             i++;
         } else {
