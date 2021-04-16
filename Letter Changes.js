@@ -1,9 +1,9 @@
 function LetterChanges(str) {
-var lett;
-var newString = "";
-var alphabet = "abcdefghijklmnopqrstuvwxyz";
-for (var i = 0; i < str.length; i++) {
-     lett = alphabet.indexOf(str[i]);
+     var lett;
+     var newString = "";
+     var alphabet = "abcdefghijklmnopqrstuvwxyz";
+     for (var i = 0; i < str.length; i++) {
+          lett = alphabet.indexOf(str[i]);
           if (lett === 25) {
               newString = newString + "a";
           } else if (lett === -1) {
